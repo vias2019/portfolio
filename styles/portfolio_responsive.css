@@ -275,7 +275,7 @@
 	.menu
 	{
 		height: 380px;
-		width: 130px;
+		width: 220px;
 	}
 	.menu.active,
 	.header.scrolled .menu.active

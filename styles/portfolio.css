@@ -730,7 +730,7 @@ section
 }
 .portfolio_item img
 {
-	width: 100%;
+	max-width: 100%;
 }
 .mCSB_outside + .mCS-minimal.mCSB_scrollTools_vertical, .mCSB_outside + .mCS-minimal-dark.mCSB_scrollTools_vertical
 {
