@@ -312,7 +312,7 @@
 	.menu
 	{
 		height: 380px;
-		width: 220px;
+		width: 130px;
 	}
 	.menu.active,
 	.header.scrolled .menu.active
