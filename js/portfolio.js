@@ -116,40 +116,40 @@ $(document).ready(function()
 
 	*/
 
-    function initIsotope()
-    {
-    	if($('.grid').length)
-    	{
-    		$('.grid').isotope({
-	  			itemSelector: '.grid-item',
-	  			percentPosition: true,
-	  			masonry:
-	  			{
-				    horizontalOrder: true
-			  	}
-	        });
+    // function initIsotope()
+    // {
+    // 	if($('.grid').length)
+    // 	{
+    // 		$('.grid').isotope({
+	//   			itemSelector: '.grid-item',
+	//   			percentPosition: true,
+	//   			masonry:
+	//   			{
+	// 			    horizontalOrder: true
+	// 		  	}
+	//         });
 
-	        if($('.portfolio_category').length)
-	    	{
-	    		$('.portfolio_category').click(function()
-		    	{
-			        $('.portfolio_category.active').removeClass('active');
-			        $(this).addClass('active');
+	//         if($('.portfolio_category').length)
+	//     	{
+	//     		$('.portfolio_category').click(function()
+	// 	    	{
+	// 		        $('.portfolio_category.active').removeClass('active');
+	// 		        $(this).addClass('active');
 			 
-			        var selector = $(this).attr('data-filter');
-			        $('.portfolio_grid').isotope({
-			            filter: selector,
-			            animationOptions: {
-			                duration: 750,
-			                easing: 'linear',
-			                queue: false
-			            }
-			        });
+	// 		        var selector = $(this).attr('data-filter');
+	// 		        $('.portfolio_grid').isotope({
+	// 		            filter: selector,
+	// 		            animationOptions: {
+	// 		                duration: 750,
+	// 		                easing: 'linear',
+	// 		                queue: false
+	// 		            }
+	// 		        });
 
-			         return false;
-			    });
-	    	}
-    	}
-    }
+	// 		         return false;
+	// 		    });
+	//     	}
+    // 	}
+    // }
 
 });
