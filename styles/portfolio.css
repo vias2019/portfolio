@@ -461,7 +461,7 @@ section
 }
 .general_info_icon img
 {
-	max-width: 100%;
+	width: 100%;
 }
 .general_info_text,
 .general_info_text a
@@ -730,7 +730,11 @@ section
 }
 .portfolio_item img
 {
-	max-width: 100%;
+	width: 100%;
+	border-style: double;
+	border-width: 2px;
+	border-color: #100f3a;
+	
 }
 .mCSB_outside + .mCS-minimal.mCSB_scrollTools_vertical, .mCSB_outside + .mCS-minimal-dark.mCSB_scrollTools_vertical
 {
