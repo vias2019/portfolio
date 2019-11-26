@@ -705,6 +705,7 @@ section
 {
 	width: 100%;
 	height: 40px;
+	font-weight: bold;
 	background: transparent;
 	border: none;
 	outline: none;
@@ -810,4 +811,7 @@ section
 {
 	width: 100%;
 	height: calc(100% + 30px);
+}
+.atag {
+	font-weight: bold;
 }
