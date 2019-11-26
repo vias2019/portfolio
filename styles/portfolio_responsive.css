@@ -297,7 +297,7 @@
 	}
 	.general_info_image
 	{
-		height: 100%;
+		height: calc(100vw - 30px);
 	}
 	.main_content
 	{
