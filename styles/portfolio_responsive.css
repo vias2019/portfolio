@@ -280,7 +280,7 @@
 	.menu.active,
 	.header.scrolled .menu.active
 	{
-		bottom: -310px;
+		bottom: 5px;
 	}
 	.hamburger
 	{
