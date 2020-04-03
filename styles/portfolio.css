@@ -763,7 +763,8 @@ section
 	font-weight: 600;
 	color: #FFFFFF;
 	line-height: 1.2;
-	margin-top: 30px;
+	margin-top: 25px;
+	padding: 10px;
 }
 .portfolio_item_link
 {
