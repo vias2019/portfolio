@@ -573,7 +573,8 @@ section
 	width: 25%;
 	height: 265px;
 	float: left;
-	padding-bottom: 70px;
+	padding-bottom: 30px;
+	padding-top: 40px;
 }
 .loader
 {
