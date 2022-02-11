@@ -15,11 +15,25 @@
 </head>
 <body>
 
-<div class="super_container">
-	
-	Hello world!
+    <script>
+        const express = require("express");
+        const bodyParser = require("body-parser");
+        // New app using express module
+        const app = express();
+        app.use(bodyParser.urlencoded({
+            extended:true
+        }));
+        app.post("/", function(req, res) {
+            var num1 = (req.body);
+      
+          });
+    </script>
 
-</div>
+    <div class="super_container">
+        
+        Hello world!
+
+    </div>
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap-4.1.2/popper.js"></script>
