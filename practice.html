@@ -14,19 +14,22 @@
 <link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
 </head>
 <body>
-
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="styles/bootstrap-4.1.2/popper.js"></script>
+    <script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+    <script src="plugins/mCustomScrollbar/jquery.mCustomScrollbar.js"></script>
+    <script src="plugins/easing/easing.js"></script>
+    <script src="plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
+    <script src="js/contact.js"></script>
     <script>
-        const express = require("express");
-        const bodyParser = require("body-parser");
-        // New app using express module
-        const app = express();
-        app.use(bodyParser.urlencoded({
-            extended:true
-        }));
-        app.post("/", function(req, res) {
-            var num1 = (req.body);
-      
-          });
+        var request = require('request');
+            var url ='http://requestbin.net/r/bxf320dr'
+            request(url, function (error, response, body) {
+            if (!error) {
+                console.log(body);
+            }
+        });
     </script>
 
     <div class="super_container">
@@ -35,13 +38,6 @@
 
     </div>
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap-4.1.2/popper.js"></script>
-<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
-<script src="plugins/mCustomScrollbar/jquery.mCustomScrollbar.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
-<script src="js/contact.js"></script>
+
 </body>
 </html>
